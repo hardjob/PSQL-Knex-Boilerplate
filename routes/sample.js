@@ -5,7 +5,7 @@ const sampleService = require('../services/sample');
 
 const router = new Router();
 
-router.get('/sample', async ctx => {
+router.get('/samples', async ctx => {
     try {
         const allSamples = await sampleService.getAll();
         ctx.status = 201;
