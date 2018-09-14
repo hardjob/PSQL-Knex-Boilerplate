@@ -5,7 +5,8 @@
 ![](https://i.imgur.com/4qPQe7K.png)  |  ![](https://i.imgur.com/kYntXNH.png) | ![](https://i.imgur.com/yKXgLLa.png)
 
 ## WIP Currently
-- [ ] Complete
+![](https://img.shields.io/badge/Status-WIP-blue.svg) ![Boilerplate completion](https://img.shields.io/badge/Completion-40%25-orange.svg)
+
 
 ### How To Get Started
 - Configure a postgres database somewhere
