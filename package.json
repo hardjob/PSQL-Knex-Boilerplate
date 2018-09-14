@@ -1,0 +1,30 @@
+{
+  "name": "psql-knex-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate project for a service based around: Koa Router, Postgres, Amazon RDS and KnexJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/builtbyproxy/PSQL-Knex-Boilerplate.git"
+  },
+  "keywords": [
+    "KnexJs",
+    "PostgresQL",
+    "psql",
+    "boilerplate",
+    "server",
+    "AwsRDS",
+    "RDS",
+    "Koa",
+    "Router"
+  ],
+  "author": "Lachlan Young",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/builtbyproxy/PSQL-Knex-Boilerplate/issues"
+  },
+  "homepage": "https://github.com/builtbyproxy/PSQL-Knex-Boilerplate#readme"
+}
