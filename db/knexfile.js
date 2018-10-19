@@ -1,18 +1,12 @@
+const {config} = require('./connection');
+
 module.exports = {
-    client: 'postgresql',
-    connection: {
-        host: 'amazonIPV4Address',
-        database: 'DatabaseName',
-        user: 'username',
-        password: 'password',
-    },
-    pool: {
-        min: 2,
-        max: 10,
-    },
+    client: config.client,
+    connection: config.connection,
+    pool: config.pool,
     migration: {
-        directory: './migrations',
-        tableName: 'knex_migrations'
+        ...config.migrations,
+        directory: './migrations'
     },
     debug: false,
-}
+};

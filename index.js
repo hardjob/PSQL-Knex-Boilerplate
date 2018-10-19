@@ -8,7 +8,10 @@ const app = new Koa();
 const PORT = 8163; // Consider setting this to an environment variable
 
 // CORS Configuration - Cross Origin
-app.use(cors({origin: 'http://localhost:3000', credentials: true }));
+app.use(cors({
+    origin: 'http://localhost:3000',
+    credentials: true
+}));
 
 // Body Parsed
 app.use(koaBody());

@@ -1,12 +1,13 @@
-const db = require('../db/connection');
+const {cn} = require('../db/connection');
+const db = new cn();
 
 const getAll = async () => {
-    return db()('Samples')
+    return db('Samples')
         .select('*');
 }
 
 const getSample = async id => {
-    return db()('Samples')
+    return db('Samples')
         .select('*')
         .where({ id })
         .first();
@@ -15,4 +16,4 @@ const getSample = async id => {
 module.exports = {
     getAll,
     getSample
-}
+};
